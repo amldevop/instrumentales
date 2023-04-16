@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AML BEATS</title>
+    <link rel="stylesheet" href="../css/shop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+    <header>
+        <img src="../assets/AMLBEATS_website.png" alt="logo">
+        <nav>
+            <a href="./home.html">HOME</a>
+            <a href="./contact.html">CONTACT</a>
+            <a href="./account.html">ACCOUNT</a>
+            <a href="./shop.html">SHOP</a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass fa-1x"></i></a>
+            <a href="./home.html"><i class="fa-solid fa-house fa-1x"></i></a>
+        </nav>
+    </header>
+    <section>
+        <div class="market">
+            <h1>Shop</h1>
+            <div class="price">
+                <i class="fa-solid fa-plus"></i>
+                <p>Lease 30$/30€</p>
+                <p>Premium 50$/50€</p>
+                <p>Trackouts 80$/80€</p>
+                <p>Exclusive 150$/150€</p>
+            </div>
+        </div>
+        <div class="tracks">
+            <h2>Tracks</h2>
+            <div>
+                <img src="../assets/AMLBEATS_website.png" alt="logo">
+                <label class="search-bar">
+                    <input type="text" name="text" id="text">
+                    <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+                </label>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+                <audio src="" controls></audio>
+            </div>
+            <script src="../js/like_button.js"></script>
+        </div>
+    </section>
+    <hr>
+    <span>
+        <h1>Only PayPal or <br>Stripe Payment</h1>
+        <button id="paypal">Paypal</button><!--button for payment!-->
+        <button id="checkout">Stripe</button><!--Button for checkout-->
+    </span>
+    <main>
+        <footer>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+            <ul>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+            <i class="fa-brands fa-cc-paypal fa-10x"></i>
+            <i class="fa-brands fa-cc-stripe fa-10x"></i>
+            <p>Prod.by AML BEATS</p>
+        </footer>
+    </main>
+    <script src="../js/stripe.js"></script>
+</body>
+</html>

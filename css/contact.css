@@ -1,0 +1,138 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+/* mobile S */
+@media screen and (width < 320px) {
+}
+/* mobile M */
+@media screen and (width < 375px) {
+}
+/* mobile L */
+@media screen and (width < 425px) {
+}
+/* Tablet */
+@media screen and (width < 768px) {
+}
+/* Laptop */
+@media screen and (width < 1024px) {
+}
+/* Laptop */
+@media screen and (width < 1440px) {
+}
+/* 4K */
+@media screen and (width < 2560px) {
+}
+/* Header */
+header img{
+    width: 5%;
+    border-radius: 5px;
+    animation: 1.5s slide-in;
+}
+header img:hover{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 1s;
+}
+@keyframes slide-in{
+    from{
+        margin-right: 10px;
+        opacity: 0;
+    }
+}
+header nav{
+    display: flex;
+}
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    animation: 2s slide-in;
+}
+@keyframes slide-in{
+    from{
+        margin-top: 10px;
+        opacity: 0;
+    }
+}
+header a:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: #a52a2a;
+}
+header{
+    background: #000;
+    padding: 30px;
+}
+.fa-solid{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+}
+.fa-solid:hover{
+    color: rgb(165, 42, 42);
+    transition: 0.5s;
+}
+/* Section */
+section h1{
+    text-align: center;
+    font-size: 3em;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+}
+section input{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+section{
+    margin-top: 450px;
+    margin-bottom: 450px;
+    width: 40%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #a52a2a;
+    background-image: linear-gradient(to left,rgb(25, 26, 27),#a52a2a);
+    color: #fff;
+    border-radius: 20px;
+}
+section textarea{
+    border-radius: 10px;
+    border: none;
+    resize: none;
+}
+section .btn{
+    margin-top: 20px;
+    padding: 10px;
+}
+section .btn{
+    
+}
+/* footer */
+footer li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+}
+footer li a:hover{
+    color: #a52a2a;
+    transition: 0.5s;
+}
+footer{
+    background: #000;
+    display: flex;
+    padding-bottom: 70px;
+}
+footer .fa-brands{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+    font-size: 2em;
+}

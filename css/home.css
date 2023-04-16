@@ -1,0 +1,261 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+/* mobile S */
+@media screen and (width < 320px) {
+}
+/* mobile M */
+@media screen and (width < 375px) {
+}
+/* mobile L */
+@media screen and (width < 425px) {
+}
+/* Tablet */
+@media screen and (width < 768px) {
+}
+/* Laptop */
+@media screen and (width < 1024px) {
+}
+/* Laptop */
+@media screen and (width < 1440px) {
+}
+/* 4K */
+@media screen and (width < 2560px) {
+}
+/* Header */
+header img{
+    width: 5%;
+    border-radius: 5px;
+    animation: 1.5s slide-in;
+}
+header img:hover{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 1s;
+}
+@keyframes slide-in{
+    from{
+        margin-right: 10px;
+        opacity: 0;
+    }
+}
+header nav{
+    display: flex;
+}
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    animation: 2s slide-in;
+}
+@keyframes slide-in{
+    from{
+        margin-top: 10px;
+        opacity: 0;
+    }
+}
+header a:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: #a52a2a;
+}
+header{
+    background: #000;
+    padding: 30px;
+}
+.fa-solid{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+}
+.fa-solid:hover{
+    color: rgb(165, 42, 42);
+    transition: 0.5s;
+}
+/* Section */
+.presentation{
+    font-size: 4em;
+    text-align: center;
+    background-color: #ababab;
+    background-image: linear-gradient(to left,rgb(23, 23, 58),#a0a0a0);
+    color: #fff;
+    padding: 350px;
+    height: 500px;
+    animation: 1s slide-in;
+}
+@keyframes slide-in {
+    from{
+        margin-top: 1px;
+        opacity: 0;
+    }
+}
+.presentation .btn{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.presentation .btn:hover{
+    color: #a52a2a;
+    transition: 0.5s;
+}
+section img{
+    padding: 40px;
+}
+.description h2{
+    font-size: 4em;
+    float: left;
+    padding: 250px;
+}
+.description{
+    margin-top: 350px;
+}
+hr{
+    width: 90%;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #000;
+    margin-bottom: 200px;
+}
+section h4{
+    text-align: center;
+    font-size: 4em;
+}
+.filtres{
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+}
+/* About */
+.about p{
+    font-size: 3em;
+    display: inline-flex;
+    text-align: justify;
+    width: 50%;
+    padding: 250px;
+    color: #fff;
+    animation: 1s slide-in;
+}
+@keyframes slide-in {
+    from{
+        margin-right: 10px;
+        opacity: 0;
+    }
+}
+.about{
+    background-color: #000;
+    background-image: linear-gradient(to right,purple,#000);
+    padding-bottom: 150px;
+}
+.about i{
+    border: none;
+    float: right;
+}
+/* Drumkits */
+.drumkit img{
+    width: 30%;
+}
+.drumkit{
+    font-size: 3em;
+    float: left;
+    text-align: center;
+    background: #a52a2a;
+    background-image: linear-gradient(to left,brown,black);
+    color: #fff;
+    padding-bottom: 250px;
+    padding-top: 250px;
+}
+.drumkit p{
+    font-weight: lighter;
+    text-align: justify;
+    width: 30%;
+}
+.drumkit i{
+    border: none;
+}
+.drumkit .btn{
+    display: flex;
+    padding: 20px;
+    background: transparent;
+    border-radius: 5px;
+}
+.drumkit .btn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.drumkit .btn a:hover{
+    color: #fff;
+    transition: 1s;
+}
+.drumkit > ul{
+    list-style: none;
+}
+/* app */
+.app h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    width: 50%;
+    float: left;
+    color: #fff;
+}
+.app{
+    background-color: #000;
+    padding-bottom: 500px;
+}
+.app img{
+    border-radius: 50px;
+    box-shadow: 1px 0px 1px #a0a0a0;
+    padding: 1px;
+}
+/* social_media */
+.social_media{
+    display: flex;
+    flex-direction: column;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+.social_media h3{
+    font-size: 4rem;
+}
+.social_media p{
+    font-size: 5rem;
+}
+/* mail */
+span a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2em;
+    text-align: center;
+}
+/*footer*/
+footer li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+}
+footer li a:hover{
+    color: #a52a2a;
+    transition: 0.5s;
+}
+footer{
+    background: #000;
+    display: flex;
+    padding-bottom: 70px;
+}
+footer .fa-brands{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+    font-size: 2em;
+}
+footer > ul{
+    list-style: none;
+}
